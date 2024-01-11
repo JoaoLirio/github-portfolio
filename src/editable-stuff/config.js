@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  color: "#00ff00",
   firstName: "João",
   middleName: "",
   lastName: "Lírio",
@@ -93,7 +93,7 @@ const skills = {
   show: true,
   heading: "Skills",
   hardSkills: [
-    { name: "Python", value: 90 },
+    { name: "Python", value: 75 },
     { name: "SQL", value: 75 },
     { name: "Data Structures", value: 85 },
     { name: "C/C++", value: 65 },
