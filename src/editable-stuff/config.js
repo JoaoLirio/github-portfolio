@@ -5,7 +5,7 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  color: "#00ff00",
+  color: "#663333",
   firstName: "João",
   middleName: "",
   lastName: "Lírio",

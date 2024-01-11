@@ -4,13 +4,13 @@ import Typist from 'react-typist-component';
 import { Jumbotron } from "./migration";
 
 const MainBody = React.forwardRef(
-  ({ color, title, message, icons }, ref) => {
+  ({ bgcolor, title, message, icons }, ref) => {
     return (
       <Jumbotron
         fluid
         id="home"
         style={{
-          backgroundColor: "#995555",
+          backgroundColor: bgcolor,
           backgroundSize: "100% 100%",
         }}
         className="title text-light min-vh-100 d-flex align-content-center align-items-center flex-wrap m-0"
