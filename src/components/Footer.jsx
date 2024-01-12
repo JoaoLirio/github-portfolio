@@ -8,16 +8,11 @@ const Footer = (props) => {
     <footer style={bgStyle} className="mt-auto py-5 text-center ">
       <Container>
         {props.children}
-        <i className="fas fa-code" /> with <i className="fas fa-heart" /> by{" "}
-        <a
-          rel="noopener"
-          href="https://github.com/hashirshoaeb"
-          aria-label="My GitHub"
-        > <span className="badge bg-dark">
-            Hashir Shoaib
-          </span>
-        </a>{" "}
-        using <i className="fab fa-react" />
+        <Container className="footer-icons">
+          <a href="mailto:joao.lirio.04@gmail.com" className="lead text-decoration-none black footer-text fas fa-envelope"> joao.lirio.04@gmail.com </a>
+          <i className="lead footer-text fas fa-phone-square"> +351 917868451 </i> 
+          
+        </Container>
         <p>
           <small className="text-muted">
             Project code is open source. Feel free to fork and make your own

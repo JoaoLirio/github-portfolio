@@ -21,31 +21,14 @@ code {
 }
 
 .navbar-text {
-  font-size: 200%;
+  font-size: 170%;
 } 
-.navbar-transparent {
-  background-color: rgba(255, 255, 255, 0);
+.navbar-background {
+  background-color: rgba(200, 200, 200, 0.2);
   transition: background-color 0.2s;
-}
-.navbar-white {
-  background-color: rgba(234, 236, 239, 0.81);
-  transition: background-color 0.2s;
-}
-.brand {
-  color: #ff0000;
-  font-size: xx-large;
 }
 .nav-item {
   transition: color, 0.2s;
-}
-.toggler {
-  border: none;
-  padding: 4px;
-  border-radius: 4px;
-  &:focus {
-    outline: none;
-    background-color: rgba(0, 0, 0, 0.05);
-  }
 }
 .socialicons {
   color: white;
@@ -108,4 +91,14 @@ code {
   & > * {
     animation: progress 1.5s ease-in-out forwards;
   }
+}
+
+.footer-icons {
+  display: flex;
+  column-gap: 20px;
+  justify-content: space-between;
+}
+.footer-text {
+  color: #000;
+  font-size: x-large;
 }
