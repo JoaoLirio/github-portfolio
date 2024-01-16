@@ -15,19 +15,18 @@ const Navigation = React.forwardRef((props, ref) => {
       expand="lg"
     >
       <Navbar.Brand 
-        className="navbar-text" 
         href={process.env.PUBLIC_URL + "/#home"}  
       >
         {`<${mainBody.firstName} />`}
       </Navbar.Brand>
       <Navbar.Brand
-        className="nav-item lead navbar-text"
+        className="nav-item lead"
         href={process.env.PUBLIC_URL + "/#projects"}
       >
         Projects
       </Navbar.Brand>
       <Navbar.Brand
-        className="nav-item lead navbar-text"
+        className="nav-item lead"
         href={about.resume}
         target="_blank"
         rel="noreferrer noopener"
@@ -35,13 +34,13 @@ const Navigation = React.forwardRef((props, ref) => {
         Resume
       </Navbar.Brand>
       <Navbar.Brand
-        className="nav-item lead navbar-text"
+        className="nav-item lead"
         href={process.env.PUBLIC_URL + "/#aboutme"}
       >
         About
       </Navbar.Brand>
       <Navbar.Brand
-        className="nav-item lead navbar-text"
+        className="nav-item lead"
         href={process.env.PUBLIC_URL + "/#skills"}
       >
         Skills

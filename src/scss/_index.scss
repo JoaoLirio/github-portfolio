@@ -19,10 +19,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-
-.navbar-text {
-  font-size: 170%;
-} 
+ 
 .navbar-background {
   background-color: rgba(200, 200, 200, 0.2);
   transition: background-color 0.2s;
@@ -95,10 +92,8 @@ code {
 
 .footer-icons {
   display: flex;
-  column-gap: 20px;
-  justify-content: space-between;
 }
 .footer-text {
-  color: #000;
-  font-size: x-large;
+  color: $primary;
+  font-weight: bold;
 }
