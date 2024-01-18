@@ -5,7 +5,6 @@ import { mainBody, about } from "../editable-stuff/config.js";
 //import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
-  // const { showBlog, FirstName } = config;
   const navbarMenuRef = React.useRef();
  
   return (
