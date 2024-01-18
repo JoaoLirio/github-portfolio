@@ -34,7 +34,7 @@ const about = {
   imageSize: 375,
   message:
     "My name is João Lírio. I graduated in 2023 with a masters degree in Computer Engineering from Faculdade de Engenharia da Universidade do Porto. My expertise encompasses software development. I love the challenge of solving complex problems and in my free time I like working on small projects. I'm constantly seeking opportunities for growth and innovation.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+  resume: "https://docs.google.com/document/d/1bCPzPWM6nMVkfzYvh9L3tQ1gI83GOFQt31BPbJfmGBY/edit",
 };
 
 // PROJECTS SECTION
