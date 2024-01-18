@@ -13,7 +13,7 @@ const Footer = (props) => {
           <a href="mailto:joao.lirio.04@gmail.com" className="text-decoration-none fas fa-envelope"> joao.lirio.04@gmail.com </a>
         </p>
         <p className="lead footer-text m-auto">
-          <a href="tel:+351917868451" className="text-decoration-none fas fa-phone"> (+351) 917868451 </a>  
+          <a href="tel:+351917868451" className="text-decoration-none fas fa-phone"> (+351) 917 868 451 </a>  
         </p> 
         
       </Container>
