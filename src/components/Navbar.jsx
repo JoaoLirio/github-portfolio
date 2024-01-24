@@ -1,8 +1,6 @@
 import React from "react";
 import Navbar from "react-bootstrap/Navbar";
-//import Nav from "react-bootstrap/Nav";
 import { mainBody, about } from "../editable-stuff/config.js";
-//import { NavLink } from "./home/migration";
 
 const Navigation = React.forwardRef((props, ref) => {
   const navbarMenuRef = React.useRef();
